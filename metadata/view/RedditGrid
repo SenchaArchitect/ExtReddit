@@ -35,7 +35,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "width": 300,
+                "maxHeight": null,
+                "minHeight": null,
+                "width": 456,
                 "designer|userClassName": "MyColumn1",
                 "defaultWidth": 300,
                 "dataIndex": "title",
@@ -119,7 +121,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "width": 140,
                 "designer|userClassName": "MyColumn7",
+                "defaultWidth": 200,
                 "text": "Points"
             },
             "designerId": "ec86d874-7e19-4d71-954b-1613c0eee242",

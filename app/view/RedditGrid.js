@@ -30,7 +30,7 @@ Ext.define('MyApp.view.RedditGrid', {
                     renderer: function(value, metaData, record, rowIndex, colIndex, store, view) {
                         return '<strong><a target="_blank" href="'+record.get('url')+'">' + value + '</a></strong>';
                     },
-                    width: 300,
+                    width: 456,
                     defaultWidth: 300,
                     dataIndex: 'title',
                     text: 'Title'
@@ -49,6 +49,8 @@ Ext.define('MyApp.view.RedditGrid', {
                         var points = record.data.ups - record.data.downs;
                         return points + " (<span class='ups'>"+record.data.ups+"</span>/<span class='downs'>"+record.data.downs+"</span>)";
                     },
+                    width: 140,
+                    defaultWidth: 200,
                     text: 'Points'
                 },
                 {
