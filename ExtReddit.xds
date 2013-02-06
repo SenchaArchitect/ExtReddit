@@ -5,7 +5,7 @@
         "exportPath": ""
     },
     "xdsVersion": "2.2.0",
-    "xdsBuild": 856,
+    "xdsBuild": 857,
     "schemaVersion": 1,
     "upgradeVersion": 210000000499,
     "framework": "ext41",
@@ -46,6 +46,12 @@
                 "metadata/resource/css"
             ],
             "className": "css"
+        },
+        "bed9e27d-aa99-463f-ae0d-8c2867cc7e0a": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
         }
     },
     "viewOrderMap": {
@@ -61,7 +67,8 @@
         ],
         "resource": [
             "806dc76a-43ae-4cf3-a624-20b915e91afd",
-            "b58b6bb6-72a1-404e-a7f8-13a194f94f7f"
+            "b58b6bb6-72a1-404e-a7f8-13a194f94f7f",
+            "bed9e27d-aa99-463f-ae0d-8c2867cc7e0a"
         ],
         "app": [
             "application"
