@@ -63,7 +63,7 @@
                             "view"
                         ],
                         "implHandler": [
-                            "return '<strong><a href=\"'+record.get('url')+'\">' + value + '</a></strong>';"
+                            "return '<strong><a target=\"_blank\" href=\"'+record.get('url')+'\">' + value + '</a></strong>';"
                         ]
                     },
                     "designerId": "f6b6d789-ee16-45a5-9570-a68e53861f50"
@@ -104,7 +104,7 @@
                             "view"
                         ],
                         "implHandler": [
-                            "return '<a href=\"http://reddit.com/r/'+value+'\">'+value+'</a>';"
+                            "return '<a target=\"_blank\" href=\"http://reddit.com/r/'+value+'\">'+value+'</a>';"
                         ]
                     },
                     "designerId": "b01ff5d1-ec5c-4404-abc0-ad17001d9e59"

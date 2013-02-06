@@ -28,7 +28,7 @@ Ext.define('MyApp.view.RedditGrid', {
                 {
                     xtype: 'gridcolumn',
                     renderer: function(value, metaData, record, rowIndex, colIndex, store, view) {
-                        return '<strong><a href="'+record.get('url')+'">' + value + '</a></strong>';
+                        return '<strong><a target="_blank" href="'+record.get('url')+'">' + value + '</a></strong>';
                     },
                     width: 300,
                     defaultWidth: 300,
@@ -38,7 +38,7 @@ Ext.define('MyApp.view.RedditGrid', {
                 {
                     xtype: 'gridcolumn',
                     renderer: function(value, metaData, record, rowIndex, colIndex, store, view) {
-                        return '<a href="http://reddit.com/r/'+value+'">'+value+'</a>';
+                        return '<a target="_blank" href="http://reddit.com/r/'+value+'">'+value+'</a>';
                     },
                     dataIndex: 'subreddit',
                     text: 'Subreddit'
