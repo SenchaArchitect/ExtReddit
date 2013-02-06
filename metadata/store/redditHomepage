@@ -1,0 +1,51 @@
+{
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "RedditPost",
+        "storeId": "MyJsonPStore",
+        "designer|userClassName": "redditHomepage",
+        "data": null
+    },
+    "mockCfgs": [
+        "data"
+    ],
+    "designerId": "f0614e19-3c8a-4a65-88b8-617e77db563f",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyJsonPProxy",
+                "designer|displayName": "redditJSONProxy",
+                "url": "http://www.reddit.com/.json",
+                "callbackKey": "jsonp"
+            },
+            "designerId": "7ca6932d-5f47-465e-a1e7-96cb37d05e57",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "data.children",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "a3f6511b-191f-49f9-8b52-c8dea2b51c74"
+                }
+            ]
+        }
+    ]
+}

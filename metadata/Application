@@ -1,0 +1,22 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "RedditPost"
+        ],
+        "stores": [
+            "redditHomepage"
+        ],
+        "views": [
+            "RedditGrid"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "designerId": "application"
+}
