@@ -2,7 +2,12 @@
     "name": "ExtReddit",
     "settings": {
         "urlPrefix": "http://localhost/~steve/architectprojects/ExtReddit/",
-        "exportPath": ""
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true
     },
     "xdsVersion": "2.2.0",
     "xdsBuild": 856,
