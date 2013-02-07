@@ -73,10 +73,31 @@ Ext.define('MyApp.view.RedditGrid', {
                     dataIndex: 'author',
                     text: 'Author'
                 }
+            ],
+            tools: [
+                {
+                    xtype: 'tool',
+                    itemId: 'settingsTool',
+                    type: 'gear'
+                },
+                {
+                    xtype: 'tool',
+                    type: 'refresh',
+                    listeners: {
+                        click: {
+                            fn: me.onToolClick,
+                            scope: me
+                        }
+                    }
+                }
             ]
         });
 
         me.callParent(arguments);
+    },
+
+    onToolClick: function(tool, e, eOpts) {
+        Ext.getStore('redditHomepage').reload();
     }
 
 });

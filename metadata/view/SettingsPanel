@@ -1,0 +1,17 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "floating": true,
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "SettingsPanel",
+        "closable": true,
+        "title": "Settings"
+    },
+    "designerId": "c6f7b539-ff92-43a0-a632-66c94746e3b1"
+}

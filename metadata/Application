@@ -13,9 +13,13 @@
             "redditHomepage"
         ],
         "views": [
-            "RedditGrid"
+            "RedditGrid",
+            "SettingsPanel"
         ],
         "autoCreateViewport": true,
+        "controllers": [
+            "UserController"
+        ],
         "name": "MyApp"
     },
     "designerId": "application"

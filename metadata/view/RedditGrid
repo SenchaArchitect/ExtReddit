@@ -226,6 +226,53 @@
                     "designerId": "6983b07e-3ca8-483a-a92a-973ccc19e0ca"
                 }
             ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "settingsTool",
+                "designer|userClassName": "MyTool1",
+                "type": "gear"
+            },
+            "designerId": "b622cd91-923a-4f3f-aa6f-4662b5051673"
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTool",
+                "type": "refresh"
+            },
+            "designerId": "aa67189d-2b0f-4308-9741-053e88a0c7f1",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "onToolClick",
+                        "fn": "onToolClick",
+                        "implHandler": [
+                            "Ext.getStore('redditHomepage').reload();"
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "designerId": "fe0da195-3e48-4c26-8bf7-f9ec7447bb7e"
+                }
+            ]
         }
     ]
 }

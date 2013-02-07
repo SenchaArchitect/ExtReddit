@@ -2,12 +2,7 @@
     "name": "ExtReddit",
     "settings": {
         "urlPrefix": "http://localhost/~steve/architectprojects/ExtReddit/",
-        "exportPath": "",
-        "spacesToIndent": 4,
-        "lineEnding": "LF",
-        "genTimestamps": false,
-        "cacheBust": false,
-        "buildShouldOverwriteIndex": true
+        "exportPath": ""
     },
     "xdsVersion": "2.2.0",
     "xdsBuild": 856,
@@ -57,16 +52,35 @@
                 "metadata/resource/js"
             ],
             "className": "js"
+        },
+        "69acfe15-89f2-44df-afff-6f6cb446320f": {
+            "paths": [
+                "metadata/controller/UserController",
+                "app/controller/override/UserController.js",
+                "app/controller/UserController.js"
+            ],
+            "className": "UserController"
+        },
+        "c6f7b539-ff92-43a0-a632-66c94746e3b1": {
+            "paths": [
+                "metadata/view/SettingsPanel",
+                "app/view/override/SettingsPanel.js",
+                "app/view/SettingsPanel.js"
+            ],
+            "className": "SettingsPanel"
         }
     },
     "viewOrderMap": {
         "view": [
-            "2c287404-9f99-46c8-9d50-459ab8e503e1"
+            "2c287404-9f99-46c8-9d50-459ab8e503e1",
+            "c6f7b539-ff92-43a0-a632-66c94746e3b1"
         ],
         "store": [
             "f0614e19-3c8a-4a65-88b8-617e77db563f"
         ],
-        "controller": [],
+        "controller": [
+            "69acfe15-89f2-44df-afff-6f6cb446320f"
+        ],
         "model": [
             "55d3ca0b-c7e6-44bc-b786-c9b0f8a2693c"
         ],
