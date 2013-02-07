@@ -13,7 +13,8 @@
             "redditHomepage"
         ],
         "views": [
-            "RedditGrid"
+            "RedditGrid",
+            "LoginPanel"
         ],
         "autoCreateViewport": true,
         "name": "MyApp"

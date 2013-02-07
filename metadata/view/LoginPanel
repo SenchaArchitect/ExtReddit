@@ -1,0 +1,15 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "LoginPanel",
+        "title": "My Panel"
+    },
+    "designerId": "a99008a9-ecfb-483b-8d64-82a5ca5e70ea"
+}

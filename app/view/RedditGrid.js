@@ -69,6 +69,7 @@ Ext.define('MyApp.view.RedditGrid', {
                         return '<a href="http://reddit.com/u/'+value+'">'+value+'</a>';
                     },
                     dataIndex: 'author',
+                    locked: true,
                     text: 'Author'
                 }
             ]

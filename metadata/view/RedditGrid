@@ -192,6 +192,7 @@
             "userConfig": {
                 "designer|userClassName": "MyColumn9",
                 "dataIndex": "author",
+                "locked": true,
                 "text": "Author"
             },
             "designerId": "0192fbc6-0384-46eb-9f77-eb97012c3e3b",

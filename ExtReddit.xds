@@ -5,7 +5,7 @@
         "exportPath": ""
     },
     "xdsVersion": "2.2.0",
-    "xdsBuild": 857,
+    "xdsBuild": 856,
     "schemaVersion": 1,
     "upgradeVersion": 210000000499,
     "framework": "ext41",
@@ -52,11 +52,20 @@
                 "metadata/resource/js"
             ],
             "className": "js"
+        },
+        "a99008a9-ecfb-483b-8d64-82a5ca5e70ea": {
+            "paths": [
+                "metadata/view/LoginPanel",
+                "app/view/override/LoginPanel.js",
+                "app/view/LoginPanel.js"
+            ],
+            "className": "LoginPanel"
         }
     },
     "viewOrderMap": {
         "view": [
-            "2c287404-9f99-46c8-9d50-459ab8e503e1"
+            "2c287404-9f99-46c8-9d50-459ab8e503e1",
+            "a99008a9-ecfb-483b-8d64-82a5ca5e70ea"
         ],
         "store": [
             "f0614e19-3c8a-4a65-88b8-617e77db563f"
