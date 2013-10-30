@@ -1,75 +1,34 @@
 {
     "name": "ExtReddit",
     "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.30",
+            "frameworkVersion": "4.1.1"
+        },
         "urlPrefix": "http://localhost/~steve/architectprojects/ExtReddit/",
-        "exportPath": ""
+        "exportPath": "",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
     },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 894,
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
+    "upgradeVersion": 300000000001,
     "framework": "ext41",
-    "topInstanceFileMap": {
-        "55d3ca0b-c7e6-44bc-b786-c9b0f8a2693c": {
-            "paths": [
-                "metadata/model/RedditPost",
-                "app/model/override/RedditPost.js",
-                "app/model/RedditPost.js"
-            ],
-            "className": "RedditPost"
-        },
-        "806dc76a-43ae-4cf3-a624-20b915e91afd": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
-        },
-        "2c287404-9f99-46c8-9d50-459ab8e503e1": {
-            "paths": [
-                "metadata/view/RedditGrid",
-                "app/view/override/RedditGrid.js",
-                "app/view/RedditGrid.js",
-                "app/view/Viewport.js"
-            ],
-            "className": "RedditGrid"
-        },
-        "f0614e19-3c8a-4a65-88b8-617e77db563f": {
-            "paths": [
-                "metadata/store/redditHomepage",
-                "app/store/override/redditHomepage.js",
-                "app/store/redditHomepage.js"
-            ],
-            "className": "redditHomepage"
-        },
-        "b58b6bb6-72a1-404e-a7f8-13a194f94f7f": {
-            "paths": [
-                "metadata/resource/css"
-            ],
-            "className": "css"
-        },
-        "bed9e27d-aa99-463f-ae0d-8c2867cc7e0a": {
-            "paths": [
-                "metadata/resource/js"
-            ],
-            "className": "js"
-        },
-        "69acfe15-89f2-44df-afff-6f6cb446320f": {
-            "paths": [
-                "metadata/controller/UserController",
-                "app/controller/override/UserController.js",
-                "app/controller/UserController.js"
-            ],
-            "className": "UserController"
-        },
-        "c6f7b539-ff92-43a0-a632-66c94746e3b1": {
-            "paths": [
-                "metadata/view/SettingsPanel",
-                "app/view/override/SettingsPanel.js",
-                "app/view/SettingsPanel.js"
-            ],
-            "className": "SettingsPanel"
-        }
-    },
     "viewOrderMap": {
         "view": [
             "2c287404-9f99-46c8-9d50-459ab8e503e1",

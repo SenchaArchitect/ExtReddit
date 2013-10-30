@@ -6,21 +6,20 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "UserController"
+        ],
         "models": [
             "RedditPost"
         ],
+        "name": "MyApp",
         "stores": [
             "redditHomepage"
         ],
         "views": [
             "RedditGrid",
             "SettingsPanel"
-        ],
-        "autoCreateViewport": true,
-        "controllers": [
-            "UserController"
-        ],
-        "name": "MyApp"
+        ]
     },
     "designerId": "application"
 }

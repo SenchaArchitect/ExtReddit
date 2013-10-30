@@ -1,0 +1,14 @@
+{
+   "name": "ExtReddit",
+   "requires": [],
+   "id": "a2bce66c-7865-43e3-a25a-58d20b7412f9",
+   "resources": [
+      "css/style.css"
+   ],
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "resources": [
+         "css/style.css"
+      ]
+   }
+}

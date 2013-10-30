@@ -6,8 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "url": "css/style.css",
-        "id": "style"
+        "designer|userClassName": "css",
+        "id": "style",
+        "url": "css/style.css"
     },
     "designerId": "b58b6bb6-72a1-404e-a7f8-13a194f94f7f"
 }

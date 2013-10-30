@@ -18,7 +18,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onToolClick",
+                "designer|controlQuery": "#settingsTool",
+                "designer|targetType": "Ext.panel.Tool",
                 "fn": "onToolClick",
                 "implHandler": [
                     "var panel = Ext.create('MyApp.view.SettingsPanel');",
@@ -26,9 +27,7 @@
                     "panel.show();"
                 ],
                 "name": "click",
-                "scope": "me",
-                "designer|targetType": "Ext.panel.Tool",
-                "designer|controlQuery": "#settingsTool"
+                "scope": "me"
             },
             "designerId": "36b3729d-ae71-4501-af77-b3b57e3b0a7c"
         }

@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "height": null,
-        "width": 797,
-        "designer|userClassName": "RedditGrid",
         "designer|initialView": true,
+        "designer|userClassName": "RedditGrid",
+        "height": null,
+        "store": "redditHomepage",
         "title": "Reddit Posts",
-        "store": "redditHomepage"
+        "width": 797
     },
     "designerId": "2c287404-9f99-46c8-9d50-459ab8e503e1",
     "cn": [
@@ -22,9 +22,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGridView"
-            },
             "designerId": "869a387f-1101-43b4-b3c3-3152d367198f"
         },
         {
@@ -35,13 +32,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "dataIndex": "title",
+                "defaultWidth": 300,
                 "maxHeight": null,
                 "minHeight": null,
-                "width": 456,
-                "designer|userClassName": "MyColumn1",
-                "defaultWidth": 300,
-                "dataIndex": "title",
-                "text": "Title"
+                "text": "Title",
+                "width": 456
             },
             "designerId": "fc2476cb-2724-42b9-94ca-a98d9c9ad810",
             "cn": [
@@ -53,8 +49,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "renderer",
-                        "fn": "renderer",
                         "designer|params": [
                             "value",
                             "metaData",
@@ -64,6 +58,7 @@
                             "store",
                             "view"
                         ],
+                        "fn": "renderer",
                         "implHandler": [
                             "return '<strong><a target=\"_blank\" href=\"'+record.get('url')+'\">' + value + '</a></strong>';"
                         ]
@@ -80,7 +75,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn3",
                 "dataIndex": "subreddit",
                 "text": "Subreddit"
             },
@@ -94,8 +88,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "renderer",
-                        "fn": "renderer",
                         "designer|params": [
                             "value",
                             "metaData",
@@ -105,6 +97,7 @@
                             "store",
                             "view"
                         ],
+                        "fn": "renderer",
                         "implHandler": [
                             "return '<a target=\"_blank\" href=\"http://reddit.com/r/'+value+'\">'+value+'</a>';"
                         ]
@@ -121,10 +114,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "width": 140,
-                "designer|userClassName": "MyColumn7",
                 "defaultWidth": 200,
-                "text": "Points"
+                "text": "Points",
+                "width": 140
             },
             "designerId": "ec86d874-7e19-4d71-954b-1613c0eee242",
             "cn": [
@@ -136,8 +128,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "renderer",
-                        "fn": "renderer",
                         "designer|params": [
                             "value",
                             "metaData",
@@ -147,6 +137,7 @@
                             "store",
                             "view"
                         ],
+                        "fn": "renderer",
                         "implHandler": [
                             "var points = record.data.ups - record.data.downs;",
                             "return points + \" (<span class='ups'>\"+record.data.ups+\"</span>/<span class='downs'>\"+record.data.downs+\"</span>)\";"
@@ -164,9 +155,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "hidden": true,
-                "designer|userClassName": "MyColumn7",
                 "dataIndex": "is_self",
+                "hidden": true,
                 "text": "Is_self"
             },
             "designerId": "80d6d2d0-aa05-41dd-a486-689c5ec881f3"
@@ -179,9 +169,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "hidden": true,
-                "designer|userClassName": "MyColumn8",
                 "dataIndex": "permalink",
+                "hidden": true,
                 "text": "Permalink"
             },
             "designerId": "08cf7ee9-8144-4eb2-bbfd-b59e8cfed919"
@@ -194,7 +183,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn9",
                 "dataIndex": "author",
                 "text": "Author"
             },
@@ -208,8 +196,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "renderer",
-                        "fn": "renderer",
                         "designer|params": [
                             "value",
                             "metaData",
@@ -219,6 +205,7 @@
                             "store",
                             "view"
                         ],
+                        "fn": "renderer",
                         "implHandler": [
                             "return '<a href=\"http://reddit.com/u/'+value+'\">'+value+'</a>';"
                         ]
@@ -236,7 +223,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "settingsTool",
-                "designer|userClassName": "MyTool1",
                 "type": "gear"
             },
             "designerId": "b622cd91-923a-4f3f-aa6f-4662b5051673"
@@ -249,7 +235,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyTool",
                 "type": "refresh"
             },
             "designerId": "aa67189d-2b0f-4308-9741-053e88a0c7f1",
@@ -262,7 +247,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "onToolClick",
                         "fn": "onToolClick",
                         "implHandler": [
                             "Ext.getStore('redditHomepage').reload();"
