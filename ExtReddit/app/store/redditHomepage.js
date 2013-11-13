@@ -17,9 +17,9 @@ Ext.define('MyApp.store.redditHomepage', {
     extend: 'Ext.data.Store',
 
     requires: [
+        'MyApp.model.RedditPost',
         'Ext.data.proxy.JsonP',
-        'Ext.data.reader.Json',
-        'MyApp.model.RedditPost'
+        'Ext.data.reader.Json'
     ],
 
     constructor: function(cfg) {

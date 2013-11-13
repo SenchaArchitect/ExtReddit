@@ -41,7 +41,6 @@ Ext.application({
     name: 'MyApp',
 
     launch: function() {
-
         Ext.create('MyApp.view.RedditGrid', {renderTo: Ext.getBody()});
     }
 
